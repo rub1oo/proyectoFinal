@@ -1,0 +1,154 @@
+body {
+    background-color: white;
+    font-family: 'Georama', sans-serif;
+    font-size: 20px;
+    margin: 0px;
+}
+
+nav {
+    background-color: #57a88d;
+    padding: 20px;
+    position: sticky;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    top: 0px;
+}
+
+nav a:hover {
+    font-size: 22px;
+
+}
+
+section {
+    box-sizing: border-box;
+    background-color: white;
+    width: 40%;
+    margin-left: 20%;
+    border: 10px solid #3f6a5c;
+    border-radius: 20px;
+    float: left;
+}
+
+aside {
+    box-sizing: border-box;
+    width: 20%;
+    margin-left: 1%;
+    margin-right: 19%;
+    float: left;
+    height: 5700px;
+}
+
+footer {
+    clear: both;
+    padding: 1px;
+}
+
+@font-face {
+    font-family: Akaya;
+    src: url(../fuentes/AkayaTelivigala-Regular.ttf)
+}
+
+.hr_section {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+h2 {
+    color: #979599;
+    text-align: center;
+    font-family: 'Akaya Telivigala'
+
+}
+
+.aside {
+    background-color: #3f6a5c;
+    border-radius: 3%;
+    position: sticky;
+    top: 80px;
+}
+
+#humita_aside {
+    width: 41%;
+    border-radius: 100%;
+    border: 5px solid white;
+    margin-top: 10px;
+}
+
+hr {
+    width: 70%;
+}
+
+.datos {
+    color: #b7bbc6;
+}
+
+.textoblanco {
+    color: white;
+}
+
+.centrado {
+    text-align: center;
+}
+
+.instrucciones {
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+
+.imagenes {
+    width: 500px;
+}
+
+
+.articulo_margen {
+    font-size: 1em;
+}
+
+
+#whatsapp {
+    position: fixed;
+    width: 100px;
+    right: 2%;
+    bottom: 2%;
+}
+
+#whatsapp:hover {
+    width: 110px;
+}
+
+#contactanos {
+    font-size: 2rem;
+    text-align: center;
+    font-family: 'Akaya Telivigala', cursive;
+    color: black;
+}
+
+.icons {
+    width: 50px;
+    margin: 10px;
+}
+
+.icons:hover {
+    width: 60px;
+}
+
+.recetas {
+    display: inline;
+    background: #1a4d3c;
+    padding: 10px;
+    border-radius: 30px;
+    margin-left: 10px;
+}
+
+.recetas:hover {
+    background-color: lightseagreen;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.h2Ingredientes::after {
+    content: "🐣";
+}
